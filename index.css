@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Consolas, monaco, monospace;
+	color: white;
+}
+
+body {
+	background-color: black;
+}
+
+#text {
+	display: block;
+	font-size: 17.5px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#textul {
+	margin: 10px;
+	margin-top: 0px;
+}
+
+#textul li {
+	font-family: Consolas, monaco, monospace;
+	color: white;
+	font-size: 18px;
+	list-style-type: none;
+	margin-left: 10px;
+}
+
+#textul li:first-letter {
+	color: yellow;
+	font-weight: bold;
+}
+
+#images {
+	display: flex;
+	background-color: white;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding-top: 10px;
+}
+
+#images img {
+	cursor: pointer;
+    transition: all 1s;
+    margin: 0 0 10px 0;
+}
+
+.img {
+	width: calc(210px / 2);
+	height: calc(297px / 2);
+}
+
+.bigimg {
+	width: calc(297px * 1.4142857142857143 / 2);
+	height: calc(297px / 2);
+}
