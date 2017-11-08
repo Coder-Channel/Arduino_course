@@ -29,11 +29,6 @@ body {
 	margin-left: 10px;
 }
 
-#textul li:first-letter {
-	color: yellow;
-	font-weight: bold;
-}
-
 #images {
 	display: flex;
 	background-color: white;
